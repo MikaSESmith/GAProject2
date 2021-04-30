@@ -36,22 +36,26 @@ Use this section to include info about the API you have chosen and a code snippe
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [add link to your wireframes]()
-- [add link to your react architecture]()
+- https://wireframepro.mockflow.com/view/M1ce96cd890686c971f4435a22b34ba1c1619731645033
+
+-https://sitemap.mockflow.com/view/M2d2b223a0bc847b028109b24ab5f46391619803158997 
 
 
 ### MVP/PostMVP - 5min
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-#### MVP EXAMPLE
+#### MVP 
 - Find and use external api 
 - Render data on page 
-- Allow user to interact with the page
+- Allow user to be able to click on the categories and see current news articles.
+- Create design using basic buttons and colors.
 
-#### PostMVP EXAMPLE
-
-- Add localStorage or firebase for storage
+#### PostMVP 
+- Allow users to be able to create profiles.
+- Allow users to save articles.
+- Allow users to share articles to their social media.
+- Allow user's to customize their view from light to dark.
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -69,12 +73,21 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Create React App | H | 20 min| 20 min| 20 min |
+| Choose API's and test for data | H | 10 min| 10 min | 10 min |
+| Set up React Routing | 1 hr |   |    
+| Create hamburger nav | 1 hr |  |  |
+| Create search option | 2 hr |  |  |
+| Create "All News" & "Top Stories" in categories | 5 hr |  |  |
+| Create "Suggested Topics" and those pages | 20 hr |  |   |
+
+| Total | H | 29.5hrs|  |  |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+ D3 for webpages.
+ Canva for creating certain graphics & logo.
+ Reactstrap for icons.
 
 ## Code Snippet
 
