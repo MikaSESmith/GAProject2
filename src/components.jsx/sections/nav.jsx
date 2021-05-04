@@ -1,26 +1,9 @@
 import React from "react"
 
-function nav () {
-    return (
-        <Wrapper>
-            <ContentWrapper>
 
-                <TextWrapper>
-
-                    <Title>
-                        <Description>
-                            
-                        </Description>
-                    </Title>
-
-                </TextWrapper>
+const element = <h1>this is my nav!</h1>;
 
 
-            </ContentWrapper>
 
-
-        </Wrapper>
-    )
-}
 
 export default nav;

@@ -1,26 +1,26 @@
-// import React from "react"
+import React from "react"
 
-// function Search () {
-//     return (
-//         <Wrapper>
-//             <ContentWrapper>
+function Search () {
+    return (
+        <Wrapper>
+            <ContentWrapper>
 
-//                 <TextWrapper>
+                <TextWrapper>
 
-//                     <Title>
-//                         <Description>
+                    <Title>
+                        <Description>
                             
-//                         </Description>
-//                     </Title>
+                        </Description>
+                    </Title>
 
-//                 </TextWrapper>
-
-
-//             </ContentWrapper>
+                </TextWrapper>
 
 
-//         </Wrapper>
-//     )
-// }
+            </ContentWrapper>
 
-// export default Search
+
+        </Wrapper>
+    )
+}
+
+export default Search
