@@ -11,27 +11,21 @@ import App from "./App";
 
 
 
-function IndexPage() {
-  return (
-    <>
-      <nav />
-      {/* <Search /> */}
-    </>
+// function IndexPage() {
+//   return (
+//     <>
+//       <nav />
+//       {/* <Search /> */}
+//     </>
     
-  )
-}
+//   )
+// }
 
 
-ReactDOM.render(<App />, document.getElementById)
-  <h1>Hello, world</h1>
-  document.getElementById('root')
-);
+ReactDOM.render(<App />, document.getElementById("root"));
 
 
 
-
-
-
-export default IndexPage;
+// export default IndexPage;
 
 

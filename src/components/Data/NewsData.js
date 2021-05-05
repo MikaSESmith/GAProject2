@@ -1,25 +1,27 @@
-import React, { createContext } from "react";
+
+import React, { createData , useEffect, useState } from "react";
 import axios from "axios"
 // import NewsData from "NewsData"
 
-const NewsData = createContext()
 
-const NewsDataProvider = (props) => {
+export const NewsData = createData();
 
-  const [data, setData] = useState([])
+export const NewsDataProvider = (props) => {
+
+  const [data, setData] = useState([]);
 
   const apiKey = "8ff24b2dd0b0451ca41724d1d5b67d48";
 
   useEffect(() => {
-    axios.get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=8ff24b2dd0b0451ca41724d1d5b67d48`).then((response)) => setData(response.data()))
-    .catch((error)) => console.log(error));
+    axios.get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=8ff24b2dd0b0451ca41724d1d5b67d48`).then((response) => setData(response.data))
+    .catch((error) => console.log(error));
    
-  }, []);
+  }, [data]);
 
   return(
-    <NewsDataProvider props={}>
+    <NewsData.Provider value={{ data }}>
     {props.children}
-    </NewsDataProvider>
+    </NewsData.Provider>
   );
 
 };
@@ -110,4 +112,4 @@ const NewsDataProvider = (props) => {
 //     "country": "us"
 //     },
 
-    // export default NewsData;
+    export default NewsData;
